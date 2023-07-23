@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: white;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: green;
+}
+.menu-bar .menu{
+    padding: 15px;
+}
+.menu-bar ul li {
+    padding: 5px;
+}
+.menu-bar ul li a{
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    z-index: 1;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+
+.menu-bar ul li:hover .sub-menu-1 li{
+    width: 250px;
+    border-bottom: 1px solid rgb(86, 86, 86);
+    background-color: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 li:hover{
+    background-color: gray;
+}
+.menu-bar ul li:hover .sub-menu-1 li:last-child{
+    border-bottom: none;
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.sub-menu-3{
+    display: none;
+}
+.sub-menu-4{
+    display: none;
+}
+.sub-menu-5{
+    display: none;
+}
+.sub-menu-6, .sub-menu-7, .sub-menu-8, .sub-menu-9 , .sub-menu-10, .sub-menu-12{
+    display: none
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -28px;
+    margin-left: 250px;
+
+}
+.hover-me:hover .sub-menu-3{
+    position: absolute;
+    display: block;
+    margin-top: -3.8rem;
+    margin-left: 250px;
+}
+.hover-me:hover .sub-menu-4{
+    position: absolute;
+    display: block;
+    margin-top: -6.1rem;
+    margin-left: 250px;
+}
+.hover-me:hover .sub-menu-5{
+    position: absolute;
+    display: block;
+    margin-top: -8rem;
+    margin-left: 250px;
+}
+.hover-me:hover .sub-menu-6{
+    position: absolute;
+    display: block;
+    margin-top: -10.3rem;
+    margin-left: 250px;
+}
+.hover-me:hover .sub-menu-7{
+    position: absolute;
+    display: block;
+    margin-top: -12rem;
+    margin-left: 250px;
+}
+.be{
+    visibility: hidden;
+}
+
+.hover-me:hover .sub-menu-8{
+    position: absolute;
+    display: block;
+    margin-top: -16.7rem;
+    margin-left: 250px;
+}
+
+.hover-me:hover .sub-menu-9{
+    position: absolute;
+    display: block;
+    margin-top: -23rem;
+    margin-left: 250px;
+}
+.hover-me:hover .sub-menu-10{
+    position: absolute;
+    display: block;
+    margin-top: -27rem;
+    margin-left: 250px;
+}
+
+.hover-me:hover .sub-menu-12{
+    position: absolute;
+    display: block;
+    margin-top: -6rem;
+    margin-left: 250px;
+}
