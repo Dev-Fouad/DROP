@@ -49,7 +49,7 @@ body{
 
 .menu-bar ul li:hover .sub-menu-1 li{
     width: 250px;
-    border-bottom: 1px solid rgb(86, 86, 86);
+    border-bottom: 0.7px solid rgb(86, 86, 86);
     background-color: transparent;
     border-radius: 0;
     text-align: left;
@@ -82,38 +82,38 @@ body{
     position: absolute;
     display: block;
     margin-top: -28px;
-    margin-left: 250px;
+    margin-left: 245px;
 
 }
 .hover-me:hover .sub-menu-3{
     position: absolute;
     display: block;
     margin-top: -3.8rem;
-    margin-left: 250px;
+    margin-left: 245px;
 }
 .hover-me:hover .sub-menu-4{
     position: absolute;
     display: block;
     margin-top: -6.1rem;
-    margin-left: 250px;
+    margin-left: 245px;
 }
 .hover-me:hover .sub-menu-5{
     position: absolute;
     display: block;
     margin-top: -8rem;
-    margin-left: 250px;
+    margin-left: 245px;
 }
 .hover-me:hover .sub-menu-6{
     position: absolute;
     display: block;
     margin-top: -10.3rem;
-    margin-left: 250px;
+    margin-left: 245px;
 }
 .hover-me:hover .sub-menu-7{
     position: absolute;
     display: block;
     margin-top: -12rem;
-    margin-left: 250px;
+    margin-left: 245px;
 }
 .be{
     visibility: hidden;
@@ -123,25 +123,25 @@ body{
     position: absolute;
     display: block;
     margin-top: -16.7rem;
-    margin-left: 250px;
+    margin-left: 245px;
 }
 
 .hover-me:hover .sub-menu-9{
     position: absolute;
     display: block;
     margin-top: -23rem;
-    margin-left: 250px;
+    margin-left: 245px;
 }
 .hover-me:hover .sub-menu-10{
     position: absolute;
     display: block;
     margin-top: -27rem;
-    margin-left: 250px;
+    margin-left: 245px;
 }
 
 .hover-me:hover .sub-menu-12{
     position: absolute;
     display: block;
     margin-top: -6rem;
-    margin-left: 250px;
+    margin-left: 245px;
 }
