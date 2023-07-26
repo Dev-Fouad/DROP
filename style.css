@@ -24,7 +24,7 @@ body{
     padding: 5px;
 }
 .menu-bar ul li a{
-    color: green;
+    color: #1B8257;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
@@ -55,11 +55,12 @@ body{
     text-align: left;
 }
 .menu-bar ul li:hover .sub-menu-1 li:hover{
-    background-color: gray;
+    background-color: whitesmoke;
 }
 .menu-bar ul li:hover .sub-menu-1 li:last-child{
     border-bottom: none;
 }
+
 .fa-angle-right{
     float: right;
 }
@@ -78,39 +79,66 @@ body{
 .sub-menu-6, .sub-menu-7, .sub-menu-8, .sub-menu-9 , .sub-menu-10, .sub-menu-12{
     display: none
 }
+
+/* This is the one that give it border dotted */
+.sub-menu-1{
+    background-color: white;
+    border: 1px dotted gray;
+}
+
+
 .hover-me:hover .sub-menu-2{
     position: absolute;
     display: block;
     margin-top: -28px;
     margin-left: 245px;
+    /* This is where to edit it */
+    background-color: green;
+    z-index: 1;
 
 }
 .hover-me:hover .sub-menu-3{
     position: absolute;
     display: block;
-    margin-top: -3.8rem;
+    margin-top: -3.9rem;
     margin-left: 245px;
+        /* This is where to edit it */
+    background-color: green;
+    z-index: 1;
+
 }
 .hover-me:hover .sub-menu-4{
     position: absolute;
     display: block;
     margin-top: -6.1rem;
     margin-left: 245px;
+            /* This is where to edit it */
+    background-color: green;
+    z-index: 1;
+
 }
 .hover-me:hover .sub-menu-5{
     position: absolute;
     display: block;
     margin-top: -8rem;
+    /* This is where to edit it */
+    background-color: green;
+    z-index: 1;
+
     margin-left: 245px;
 }
 .hover-me:hover .sub-menu-6{
     position: absolute;
     display: block;
     margin-top: -10.3rem;
+    /* This is where to edit it */
+    background-color: green;
     margin-left: 245px;
 }
 .hover-me:hover .sub-menu-7{
     position: absolute;
+    /* This is where to edit it */
+    background-color: green;
     display: block;
     margin-top: -12rem;
     margin-left: 245px;
@@ -123,12 +151,16 @@ body{
     position: absolute;
     display: block;
     margin-top: -16.7rem;
+    /* This is where to edit it */
+    background-color: green;
     margin-left: 245px;
 }
 
 .hover-me:hover .sub-menu-9{
     position: absolute;
     display: block;
+        /* This is where to edit it */
+        background-color: green;
     margin-top: -23rem;
     margin-left: 245px;
 }
@@ -136,6 +168,8 @@ body{
     position: absolute;
     display: block;
     margin-top: -27rem;
+       /* This is where to edit it */
+       background-color: green;
     margin-left: 245px;
 }
 
@@ -144,4 +178,6 @@ body{
     display: block;
     margin-top: -6rem;
     margin-left: 245px;
+       /* This is where to edit it */
+       background-color: green;
 }
